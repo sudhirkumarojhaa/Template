@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "JosefinSans-Regular";
-    src: url("/home/james/Documents/Draft/fonts/JosefinSans-Regular.woff") format("woff");
+    src: url("fonts/JosefinSans-Regular.woff") format("woff");
 }
 
 @font-face {
     font-family: "Roboto-Regular";
-    src: url("/home/james/Documents/Draft/fonts/Roboto-Regular.woff") format("woff");
+    src: url("fonts/Roboto-Regular.woff") format("woff");
 }
 
 body {
