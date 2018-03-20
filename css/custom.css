@@ -23,15 +23,7 @@ body {
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
 
-a:hover {
-    text-decoration: none;
-    color: #fff;
-}
 
 h1,
 h2,
@@ -65,7 +57,7 @@ img {
 
 .btn {
     padding: 5px 20px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     margin: 10px 5px;
     background-color: #fff;
     color: #000;
@@ -73,9 +65,9 @@ img {
 }
 
 .btn:hover {
-    background-color: transparent;
+    background-color: #00a8b5;
     border: 2px solid #fff;
-    color: #fff;
+    color: #fff !important;
 }
 
 
@@ -244,8 +236,16 @@ img {
 
 .blog-grid .thumbnail {
     margin: 10px;
-    border: 2px solid #fff;
-    padding: 5px;
+}
+
+.blog-grid .caption {
+    background-color: #fff;
+}
+
+.blog-grid a,
+.blog-grid a:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 .blog-title {
